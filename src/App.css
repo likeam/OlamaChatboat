@@ -1,0 +1,43 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #242424;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+.app-header {
+  padding: 1rem 1.5rem;
+  background: #2d2d2d;
+  border-bottom: 1px solid #3a3a3a;
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.app-header small {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #888;
+  margin-left: auto;
+}
+
+.chat-container {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.loading-indicator {
+  color: #888;
+  font-style: italic;
+  padding: 0.5rem 0;
+  text-align: center;
+}
