@@ -373,7 +373,7 @@ export function ExcelUploader({ onDataImported }) {
                 setError("");
               }}
               style={{
-                padding: "1rem 2rem",
+                padding: "2rem 2rem",
                 background: "#4a4a4a",
                 border: "none",
                 borderRadius: "0.5rem",
