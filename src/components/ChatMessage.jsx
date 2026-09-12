@@ -5,7 +5,7 @@ export function ChatMessage({ message }) {
     <div
       style={{
         alignSelf: isUser ? "flex-end" : "flex-start",
-        maxWidth: "80%",
+        maxWidth: "90%",
         background: isUser ? "#0a84ff" : "#3a3a3a",
         padding: "1rem 1rem",
         borderRadius: isUser
