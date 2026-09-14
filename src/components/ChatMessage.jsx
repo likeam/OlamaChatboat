@@ -10,7 +10,7 @@ export function ChatMessage({ message }) {
         padding: "1rem 1rem",
         borderRadius: isUser
           ? "1rem 1rem 0.5rem 1rem"
-          : "1rem 1rem 1rem 0.25rem",
+          : "1rem 1rem 1rem 0.5rem",
         wordWrap: "break-word",
         whiteSpace: "pre-wrap",
       }}
