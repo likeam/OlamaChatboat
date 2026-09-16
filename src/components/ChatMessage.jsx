@@ -8,9 +8,7 @@ export function ChatMessage({ message }) {
         maxWidth: "90%",
         background: isUser ? "#0a84ff" : "#3a3a3a",
         padding: "1rem 1rem",
-        borderRadius: isUser
-          ? "1rem 1rem 0.5rem 1rem"
-          : "1rem 1rem 1rem 0.5rem",
+        borderRadius: isUser ? "1rem 1rem 1rem 1rem" : "1rem 1rem 1rem 0.5rem",
         wordWrap: "break-word",
         whiteSpace: "pre-wrap",
       }}
