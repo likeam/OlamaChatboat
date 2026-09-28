@@ -4,7 +4,7 @@ export function ChatWindow({ messages, loading }) {
   return (
     <div className="chat-container">
       {messages.length === 0 && (
-        <div style={{ color: "#666", textAlign: "center", marginTop: "2rem" }}>
+        <div style={{ color: "#666", textAlign: "center", marginTop: "1rem" }}>
           Ask something to DeepSeek (via Ollama) 🚀
         </div>
       )}
