@@ -376,7 +376,7 @@ export function ExcelUploader({ onDataImported }) {
                 padding: "2rem 2rem",
                 background: "#4a4a4a",
                 border: "none",
-                borderRadius: "0.5rem",
+                borderRadius: "1rem",
                 color: "#e1e1e1",
                 cursor: "pointer",
               }}
