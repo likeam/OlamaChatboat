@@ -351,7 +351,7 @@ export function ExcelUploader({ onDataImported }) {
                 padding: "0.75rem 2rem",
                 background:
                   !mapping.name || !mapping.price || isLoading
-                    ? "#444"
+                    ? "#555"
                     : "#0a84ff",
                 border: "none",
                 borderRadius: "0.5rem",
