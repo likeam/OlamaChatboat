@@ -348,7 +348,7 @@ export function ExcelUploader({ onDataImported }) {
               onClick={handleImport}
               disabled={!mapping.name || !mapping.price || isLoading}
               style={{
-                padding: "0.75rem 2rem",
+                padding: "1rem 2rem",
                 background:
                   !mapping.name || !mapping.price || isLoading
                     ? "#555"
